@@ -1,0 +1,12 @@
+.demo-link {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: #929b75;
+  font: 9px "DM Mono";
+  padding: 9px 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.demo-link:hover { color: var(--lime); }
+.demo-link:disabled { opacity: .4; }

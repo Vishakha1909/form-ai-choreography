@@ -1,0 +1,52 @@
+{
+  "collection": "Bharatanatyam adavu family references",
+  "primary_channel": "Neha Chemmanoor",
+  "style": "Kalakshetra",
+  "supporting_playlists": [
+    "https://www.youtube.com/playlist?list=PLWCostN7UeVRnulFPsAx2FQAbgyD_ZfX-",
+    "https://www.youtube.com/playlist?list=PL89SntT5DEGXprN5M5pCAN38thZI8fisg",
+    "https://www.youtube.com/playlist?list=PLYyI13xGJo2ZHDB8l6CBLXMXgKy_gxP2p"
+  ],
+  "clips": [
+    {
+      "id": "adavu-thattadavu",
+      "family": "Thattadavu",
+      "video_id": "hrXxqPRtPYk",
+      "title": "Thattadavu 1-8",
+      "filename": "hrXxqPRtPYk.mp4",
+      "counts": 8
+    },
+    {
+      "id": "adavu-nattadavu",
+      "family": "Nattadavu",
+      "video_id": "YNwZdeKRraI",
+      "title": "Nattadavu 1-8",
+      "filename": "YNwZdeKRraI.mp4",
+      "counts": 8
+    },
+    {
+      "id": "adavu-ta-tei-tei-ta",
+      "family": "Ta Tei Tei Ta / Paraval",
+      "video_id": "s-J6NFYLtE4",
+      "title": "Tha Thei Thei Tha 1-4",
+      "filename": "s-J6NFYLtE4.mp4",
+      "counts": 8
+    },
+    {
+      "id": "adavu-kudithu-mettu",
+      "family": "Kudithu Mettu",
+      "video_id": "br5-2-J-XlY",
+      "title": "Thai Ha Thai Hi 1-4 / Kudithu Mettu",
+      "filename": "br5-2-J-XlY.mp4",
+      "counts": 8
+    },
+    {
+      "id": "adavu-tha-hatha-jham",
+      "family": "Tha Hatha Jham / Theermaana",
+      "video_id": "kvhAsLbOChc",
+      "title": "Tha Hatha Jam Thari Tha",
+      "filename": "kvhAsLbOChc.mp4",
+      "counts": 8
+    }
+  ]
+}

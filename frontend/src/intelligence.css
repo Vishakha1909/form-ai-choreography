@@ -1,0 +1,74 @@
+.rehearsal-upload {
+  width: 100%;
+  border: 1px solid #3b3350;
+  background: #17131d;
+  color: #c6b6eb;
+  padding: 10px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font: 9px "DM Mono";
+  text-transform: uppercase;
+}
+.rehearsal-upload:hover { border-color: #aa86ff; color: #d9c9ff; }
+.rehearsal-upload:disabled { opacity: .4; }
+.ensemble-summary { border-left-color: #aa86ff; background: #1b1623; }
+.ensemble-summary span { color: #bba4e8; }
+.ensemble-diagnosis { padding: 20px 22px; margin-bottom: 18px; }
+.ensemble-coverage { color: #c9b2ff; background: #21182e; padding: 7px 9px; font: 9px "DM Mono"; }
+.ensemble-score-row { display: grid; grid-template-columns: repeat(5,1fr); gap: 1px; margin-top: 14px; background: #2b2d2c; }
+.ensemble-score-row div { background: #121413; padding: 12px; display: flex; flex-direction: column; }
+.ensemble-score-row b { color: #d9c9ff; font-size: 22px; }
+.ensemble-score-row span { color: #747975; font: 8px "DM Mono"; margin-top: 3px; }
+.rehearsal-review-grid { display: grid; grid-template-columns: minmax(0,2fr) minmax(210px,1fr); gap: 10px; margin-top: 12px; }
+.rehearsal-player { position: relative; align-self: start; overflow: hidden; background: #070908; border: 1px solid #312a3c; }
+.rehearsal-player video { display: block; width: 100%; height: auto; max-height: 440px; background: #050505; }
+.pose-overlay { position: absolute; inset: 0 0 auto; width: 100%; height: calc(100% - 34px); pointer-events: none; overflow: visible; }
+.pose-overlay line { stroke-width: .004; opacity: .88; vector-effect: non-scaling-stroke; }
+.pose-overlay circle { vector-effect: non-scaling-stroke; }
+.pose-overlay text { font: bold .028px "DM Mono"; paint-order: stroke; stroke: #090b0a; stroke-width: .007px; }
+.overlay-disclosure { position: absolute; top: 7px; left: 7px; padding: 5px 7px; background: rgba(5,7,6,.78); color: #c9b2ff; font: 8px "DM Mono"; }
+.review-inspector { border: 1px solid #302b39; background: #121016; padding: 13px; display: flex; flex-direction: column; align-items: flex-start; }
+.review-inspector > strong { margin-top: 15px; color: #d9c9ff; font: 11px "DM Mono"; text-transform: uppercase; }
+.review-inspector > p { color: #b6adb9; font-size: 11px; line-height: 1.55; }
+.review-inspector > button { width: 100%; margin-top: auto; display: flex; justify-content: center; align-items: center; gap: 6px; padding: 9px; border: 1px solid #725ca0; background: #241a35; color: #d9c9ff; font: 8px "DM Mono"; text-transform: uppercase; }
+.review-inspector > small { margin-top: 9px; color: #65606a; font: 7px/1.45 "DM Mono"; }
+.sync-timeline-wrap { margin-top: 10px; }
+.sync-timeline-wrap > span { display: block; margin-top: 4px; color: #686e69; font: 7px "DM Mono"; }
+.sync-timeline { width: 100%; height: 74px; background: #0c0e0d; border: 1px solid #292d2a; cursor: crosshair; }
+.sync-timeline line { stroke: #2d332f; stroke-width: 1; }
+.sync-timeline polyline { fill: none; stroke: #aa86ff; stroke-width: 2; vector-effect: non-scaling-stroke; }
+.sync-timeline .event-marker { fill: #ddb46f; stroke: #120f0b; stroke-width: 2; cursor: pointer; vector-effect: non-scaling-stroke; }
+.sync-timeline .event-marker.high { fill: #ff747e; }
+.sync-timeline .review-playhead { stroke: #e8ff5b; stroke-width: 2; vector-effect: non-scaling-stroke; pointer-events: none; }
+.dancer-metrics { display: flex; gap: 7px; overflow-x: auto; margin-top: 10px; }
+.dancer-metrics > div { min-width: 125px; padding: 9px; border: 1px solid #2d3230; background: #101211; display: grid; grid-template-columns: 1fr auto; }
+.dancer-metrics strong { color: #e8ff5b; font: 10px "DM Mono"; }
+.dancer-metrics b { color: #eee; font: 14px "DM Mono"; }
+.dancer-metrics span { grid-column: 1 / -1; color: #737a75; font: 8px/1.5 "DM Mono"; }
+.sync-events { margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+.sync-events button { margin: 0; padding: 7px; display: grid; grid-template-columns: auto auto 1fr; gap: 6px; align-items: flex-start; border: 1px solid transparent; background: #211b14; color: #c9aa7d; font-size: 9px; text-align: left; }
+.sync-events button.high { background: #2b1518; color: #ff9a9f; }
+.sync-events button.selected { border-color: currentColor; }
+.sync-events b { font: 8px "DM Mono"; flex: none; }
+.sync-events span { line-height: 1.4; }
+.diagnosis-limit { margin: 10px 0 0; color: #606660; font: 8px/1.5 "DM Mono"; }
+.co-director { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 13px; }
+.co-director > strong { color: #c9b2ff; font: 9px "DM Mono"; letter-spacing: .1em; }
+.co-director > p { color: #737873; font: 9px/1.5 "DM Mono"; }
+.co-director textarea { width: 100%; min-height: 78px; resize: vertical; border: 1px solid #3b344a; background: #15121a; color: #e5dff0; padding: 9px; font: 9px/1.5 "DM Mono"; }
+.co-director > button { width: 100%; margin-top: 7px; padding: 9px; display: flex; justify-content: center; align-items: center; gap: 6px; border: 1px solid #725ca0; background: #241a35; color: #d9c9ff; font: 9px "DM Mono"; text-transform: uppercase; }
+.co-director > button:disabled { opacity: .4; }
+.revision-proposal { margin-top: 8px; padding: 9px; border-left: 2px solid #65e6c4; background: #102019; }
+.revision-proposal.fail { border-color: #ff8585; background: #281719; }
+.revision-proposal > b,.revision-proposal > span { display: block; }
+.revision-proposal > b { color: #a9efda; font: 9px "DM Mono"; text-transform: uppercase; }
+.revision-proposal > span { color: #718078; font: 8px "DM Mono"; margin-top: 3px; }
+.revision-proposal p { color: #a7c6b8; font-size: 9px; margin: 7px 0; }
+.revision-proposal > div { display: flex; gap: 6px; }
+.revision-proposal button { flex: 1; border: 1px solid #3d6658; background: #16251f; color: #9ae9cb; padding: 7px; font: 8px "DM Mono"; text-transform: uppercase; }
+.revision-proposal button:disabled { opacity: .35; }
+@media(max-width:900px){.rehearsal-review-grid{grid-template-columns:1fr}.review-inspector>button{margin-top:12px}}
+@media(max-width:760px){.ensemble-score-row{grid-template-columns:1fr 1fr}.sync-events{grid-template-columns:1fr}}

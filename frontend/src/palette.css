@@ -1,0 +1,87 @@
+.palette-any {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #303230;
+  background: #151716;
+  color: #777;
+  font: 9px DM Mono;
+  text-transform: uppercase;
+}
+
+.palette-any.active {
+  color: #dce990;
+  border-color: #697143;
+  background: #20241a;
+}
+
+.palette-label {
+  display: block;
+  margin-top: 11px;
+  color: #6f746e;
+  font: 8px DM Mono;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.palette-mode {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.palette-mode button {
+  padding: 7px 5px;
+  border: 1px solid #303230;
+  background: #111312;
+  color: #666c67;
+  font: 8px/1.3 DM Mono;
+}
+
+.palette-mode button.active {
+  color: #65e6c4;
+  border-color: #397564;
+  background: #112019;
+}
+
+.motion-chips {
+  margin-top: 6px;
+}
+
+.motion-chips button {
+  text-transform: none;
+  line-height: 1.25;
+}
+
+.palette-order {
+  margin: 10px 0 0;
+  color: #b8c77d;
+  font: 8px DM Mono;
+  line-height: 1.5;
+}
+
+.library-note {
+  font: 8px DM Mono;
+  color: #60655f;
+  line-height: 1.5;
+}
+
+.preset-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.preset-row button {
+  border: 1px solid #343a36;
+  background: #131614;
+  color: #79817a;
+  padding: 7px 5px;
+  font: 8px/1.3 DM Mono;
+}
+
+.preset-row button:hover {
+  color: #65e6c4;
+  border-color: #397564;
+}
